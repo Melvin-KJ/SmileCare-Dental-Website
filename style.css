@@ -1,0 +1,14 @@
+#menu{
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#menu-toggle:checked~#menu{
+    display: block;
+}
+
+@media (min-width:768px){
+    #menu{
+        display: block;
+    }
+}
